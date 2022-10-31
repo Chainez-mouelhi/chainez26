@@ -1,0 +1,906 @@
+
+
+*,*::after,*::before
+{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/*MENU DU SITE*/
+.Menu
+{
+	background: white;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3vh  2%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Menu img
+{
+	height: 15vh;
+	width:15vh;
+}
+
+nav, ul
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+nav, ul, li
+{
+	display: inline-block;
+	word-spacing: 10vh;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.contact
+{
+	background-color: red;
+}
+
+/************MENU DU SITE RESPONSIVE************/
+@media(max-width: 600vh)
+{
+	.Menu
+	{
+		flex-direction: column;
+		height: auto;
+	}
+}
+
+/************************************************************/
+/*ACCUEIL DU SITE*/
+.photo
+{
+	width:142vh;
+	height:120vh;
+	padding: 3vh  40%;
+	position: relative;
+	top: -5vh;
+	left: -65vh;
+	z-index: 2;
+}
+
+.Accueil2
+{
+	align-items: center;
+	padding: 10vh  30%;
+}
+
+.Accueil2 h1
+{
+	font-color: white;
+	font-size: 7vh;
+	position: relative;
+	top: -15vh;
+	text-align: center;
+	color: white;
+	z-index: 2;
+	font-family: 'Belleza', sans-serif;
+}
+
+.Accueil2 p
+{
+	font-family:  "Belleza", sans-serif;
+	font-size: 3vh;
+	position: relative;
+	top: -10vh;
+	text-align: center;
+	color: white;
+	z-index: 2;
+}
+
+a.bouton1
+{
+	padding: 2vh  ;
+	background:black;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 5vh;
+	font-family:  "Belleza", sans-serif;
+	position: relative;
+	left: 25vh;
+	;
+}
+
+a.bouton1:hover
+{
+	background: #141414;
+}
+
+.video
+{
+	min-width: 180vh;
+	width:164vh;
+	height:110vh;
+	margin-bottom: 40vh;
+	padding: 3vh  40%;
+	position: relative;
+	left: -68vh;
+	z-index: 1;
+}
+
+.Accueil_projets
+{
+	justify-content: space-around;
+	color:black;
+	padding:5vh;
+	display:flex;
+	flex-wrap:wrap;
+	position: relative;
+	top: -20vh;
+}
+
+.gauche
+{
+	position: relative;
+	top: 5vh;
+}
+
+.gauche h2
+{
+	font-size: 10vh;
+	color: white;
+	font-family: 'Belleza', sans-serif;
+}
+
+.gauche p
+{
+	font-size: 3vh;
+	color: white;
+	font-family: 'Belleza', sans-serif;
+	position: relative;
+	top: 5vh;
+}
+
+a.bouton2
+{
+	padding: 2vh  ;
+	background:black;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 5vh;
+	font-family:  "Belleza", sans-serif;
+	position: relative;
+	left: 10vh;
+	top: 10vh;
+	;
+}
+
+a.bouton2:hover
+{
+	background: #141414;
+}
+
+.Accueil_projets .gauche
+{
+	width: 30%;
+	margin-right:-5vh;
+	color: white;
+	font-family: 'Belleza', sans-serif;
+}
+
+.droite img
+{
+	height: 70vh;
+}
+
+/************************************************************/
+/*A PROPOS DU SITE*/
+.Image_propos
+{
+	width:162vh;
+	height:110vh;
+	padding: 3vh  50%;
+	position: relative;
+	top: -15vh;
+	left: -80vh;
+}
+
+.about
+{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+	position: relative;
+	top: -10vh;
+	overflow-x: hidden;
+}
+
+.about img
+{
+	height: auto;
+	width: 430px;
+}
+
+.about-text
+{
+	width: 550px;
+}
+
+.main
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2
+{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-family:  "Belleza", sans-serif;
+}
+
+.about-text h5
+{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	font-family:  "Belleza", sans-serif;
+}
+
+.about-text p
+{
+	color:white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	font-family:  "Belleza", sans-serif;
+}
+
+.title
+{
+	font-family: 'Belleza', sans-serif;
+	font-size: 10vh;
+	position: relative;
+	top: -50vh;
+	left: -30vh;
+	padding: 2vh  30%;
+}
+
+.title span
+{
+	font-size: 15vh;
+	color: white;
+}
+
+.title span1
+{
+	color:white;
+}
+
+.Parcours
+{
+	font-size: 10vh;
+	text-align: center;
+	position: relative;
+	top: 5vh;
+	overflow-x: hidden;
+}
+
+.container
+{
+	max-width: 1100px;
+	margin: auto;
+	overflow: auto;
+	padding: 0 2rem;
+}
+
+.main-header
+{
+	height: 55vh;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.main-header h1
+{
+	font-size: 4rem;
+	margin-bottom: 2rem;
+	line-height: 1.2;
+}
+
+.main-header h1 span
+{
+	color: #b50d10;
+}
+
+.main-header p
+{
+	font-size: 2rem;
+}
+
+img
+{
+	width: 100%;
+}
+
+.card
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+	background: #f1f1f1;
+	margin-bottom: 2rem;
+}
+
+.card h3
+{
+	margin-bottom: 2rem;
+	font-size: 5vh;
+}
+
+.card img
+{
+	height: 50vh;
+	width:  80vh;
+}
+
+.card > div
+{
+	padding: 4rem;
+}
+
+.card:nth-child(even) img
+{
+	order: 2;
+}
+
+.btn
+{
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	padding: 0.8rem 1.8rem;
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.btn:hover
+{
+	opacity: 0.8;
+}
+
+@media(max-width:100vh)
+{
+	.card
+	{
+		display: block;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+/************************************************************/
+/*PROJET DU SITE*/
+.propos
+{
+	width:162vh;
+	height:110vh;
+	padding: 3vh  50%;
+	position: relative;
+	top: -15vh;
+	left: -80vh;
+}
+
+.P1
+{
+	font-family: 'Belleza', sans-serif;
+	font-size: 10vh;
+	text-align: center;
+	position: relative;
+	top: 20vh;
+}
+
+.video3
+{
+	height: 70vh;
+	position: relative;
+	top: 30vh;
+	left: -40vh;
+	padding: 3vh  40%;
+}
+
+.P2
+{
+	font-family: 'Belleza', sans-serif;
+	font-size: 10vh;
+	text-align: center;
+	position: relative;
+	top: 60vh;
+}
+
+.video4
+{
+	height: 70vh;
+	width: 130vh;
+	position: relative;
+	top: 70vh;
+	left: -40vh;
+	margin-bottom: 100vh;
+	padding: 3vh  40%;
+}
+
+h2 .P3
+{
+	font-family: 'Belleza', sans-serif;
+	font-size: 15vh;
+	text-align: center;
+	position: relative;
+	top: -5vh;
+}
+
+.COMPETENCES
+{
+	padding: 3vh  30%;
+	justify-content: space-around;
+	padding:5vh;
+	display:flex;
+	position: relative;
+}
+
+.container2
+{
+	width: 60vh;
+	background-color: #ddd;
+	justify-content: center;
+}
+
+.competences
+{
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+}
+
+.html
+{
+	width: 70%;
+	background-color: black;
+}
+
+.js
+{
+	width: 50%;
+	background-color: black;
+}
+
+.php
+{
+	width: 55%;
+	background-color: black;
+}
+
+.c
+{
+	width: 50%;
+	background-color: black;
+}
+
+.python
+{
+	width: 50%;
+	background-color: black;
+}
+
+.audiovisuel
+{
+	width: 70%;
+	background-color: black;
+}
+
+.design
+{
+	width: 90%;
+	background-color: black;
+}
+
+.graphisme
+{
+	width: 80%;
+	background-color: black;
+}
+
+/************************************************************/
+/*CONTACT*/
+.contact1
+{
+	background-color:  #141414;
+}
+
+.section-contact h2
+{
+	font-family: 'Belleza', sans-serif;
+	font-size: 20vh;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 5vh;
+}
+
+span
+{
+	color: white;
+	font-style: italic;
+}
+
+.container
+{
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+form
+{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px 0;
+	background-color: white;
+}
+
+input,textarea,label
+{
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	color: #828282;
+	font-family: 'Belleza', sans-serif;
+}
+
+input,textarea
+{
+	border: 0;
+	border-bottom: 2px solid #828282;
+}
+
+input[type=submit]
+{
+	background-color: #545557;
+	padding: 15px 0;
+	margin: 15px;
+	color: white;
+	font-size: 18px;
+	border-bottom: none;
+	margin-top: 30px;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+input[type=submit]:hover
+{
+	background: #FFF;
+	color: #1b1c1e;
+}
+
+input,textarea
+{
+	color: red;
+	font-size: 18px;
+	padding: 15px;
+}
+
+input:focus,textarea:focus
+{
+	outline: 1px solid #828282;
+}
+
+a
+{
+	color: #828282;
+	font-style: italic;
+}
+
+a:hover
+{
+	color: #fff;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/************MEDIA QUERIES TABLETTE************/
+@media screen and (max-width: 140vh)
+{
+	.Accueil2
+	{
+		position: relative;
+		left:0vh;
+		top: 10vh;
+		z-index: 2;
+		overflow: hidden;
+	}
+
+	.Accueil2 img
+	{
+		width: 100vh;
+		height: 80vh;
+		padding: 2vh  38%;
+		position: relative;
+		left: -40vh;
+	}
+
+	a.bouton1
+	{
+		padding: 2vh  ;
+		background:black;
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 5vh;
+		font-family:  "Belleza", sans-serif;
+		position: relative;
+		left: 20vh;
+	}
+
+	a.bouton1:hover
+	{
+		background: #141414;
+	}
+
+	.video
+	{
+		margin:50vh;
+		height: 50vh;
+		position: relative;
+		top: -40vh;
+		left: -130vh;
+	}
+
+	.Accueil_projets
+	{
+		position: relative;
+		top: -70vh;
+	}
+
+	.Accueil_projets .gauche
+	{
+		width: 100%;
+		margin-right:-5vh;
+		position: relative;
+		top: 0vh;
+	}
+
+	.Accueil_projets .droite
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: 10vh;
+	}
+
+	.Image_propos
+	{
+		width:100vh;
+		height:80vh;
+		position: relative;
+		top: -15vh;
+		left: -50vh;
+	}
+
+	.Apropos .gauche1
+	{
+		width: 100%;
+		margin-right:20vh;
+	}
+
+	.Apropos .droite1
+	{
+		display: block;
+		margin-left: -5vh;
+		margin-right: 5vh;
+		margin-top: 5vh;
+		margin:10vh;
+	}
+
+	.video2
+	{
+		position: relative;
+		left: -15vh;
+	}
+
+	.video3
+	{
+		height: 40vh;
+		position: relative;
+		top: 30vh;
+		left: -25vh;
+		padding: 3vh  40%;
+	}
+
+	.video4
+	{
+		height: 42vh;
+		width: 75vh;
+		position: relative;
+		top: 70vh;
+		left: -25vh;
+		margin-bottom: 100vh;
+		padding: 3vh  40%;
+	}
+
+	.COMPETENCES
+	{
+		padding: 3vh  30%;
+		justify-content: space-around;
+		padding:5vh;
+		display:block;
+		position: relative;
+	}
+
+	.card
+	{
+		display:block;
+	}
+
+	.propos
+	{
+		width:100vh;
+		height:80vh;
+		position: relative;
+		top: -15vh;
+		left: -50vh;
+	}
+}
+
+/************MEDIA QUERIES MOBILE************/
+@media screen and (max-width: 100vh)
+{
+	.Accueil2 img
+	{
+		width: 60vh;
+		height: 40vh;
+		padding: 2vh  38%;
+		position: relative;
+		left: -25vh;
+	}
+
+	.Accueil2 h1
+	{
+		font-color: white;
+		font-size: 4vh;
+		position: relative;
+		top: -15vh;
+		text-align: center;
+		color: white;
+		z-index: 2;
+		font-family: 'Belleza', sans-serif;
+	}
+
+	.Accueil2 p
+	{
+		font-family:  "Belleza", sans-serif;
+		font-size: 2vh;
+		position: relative;
+		top: -10vh;
+		text-align: center;
+		color: white;
+		z-index: 2;
+	}
+
+	a.bouton1
+	{
+		padding: 2vh  ;
+		background:black;
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 3vh;
+		font-family:  "Belleza", sans-serif;
+		position: relative;
+		left: 10vh;
+		;
+	}
+
+	a.bouton1:hover
+	{
+		background: #141414;
+	}
+
+	.gauche h2
+	{
+		font-size: 6vh;
+		color: white;
+		font-family: 'Belleza', sans-serif;
+	}
+
+	.gauche p
+	{
+		font-size: 2vh;
+		color: white;
+		font-family: 'Belleza', sans-serif;
+		position: relative;
+		top: 5vh;
+	}
+
+	a.bouton2
+	{
+		padding: 1vh  ;
+		background:black;
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 2vh;
+		font-family:  "Belleza", sans-serif;
+		position: relative;
+		left: 12vh;
+		top: 5vh;
+		;
+	}
+
+	a.bouton2:hover
+	{
+		background: #141414;
+	}
+
+	.droite img
+	{
+		height: 40vh;
+	}
+
+	.card
+	{
+		display:block;
+	}
+
+	.propos
+	{
+		width: 60vh;
+		height: 40vh;
+		position: relative;
+		top: 5vh;
+		left: -30vh;
+	}
+
+	.video3
+	{
+		height: 30vh;
+		position: relative;
+		top: 30vh;
+		left: -20vh;
+		padding: 3vh  40%;
+	}
+
+	.video4
+	{
+		height: 35vh;
+		width: 50vh;
+		position: relative;
+		top: 70vh;
+		left: -20vh;
+		margin-bottom: 100vh;
+		padding: 3vh  40%;
+	}
+}
